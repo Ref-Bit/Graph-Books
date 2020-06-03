@@ -1,15 +1,20 @@
 {
   "name": "server",
   "version": "1.0.0",
-  "description": "",
+  "description": "A web app to show books and authors with GraphQL.",
   "main": "app.js",
   "scripts": {
-    "start": "nodemon app"
+    "start": "nodemon app",
+    "postinstall": "npm install --prefix ../client && npm run build --prefix ../client",
+    "server": "nodemon app",
+    "client": "npm start --prefix ../client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
   },
   "keywords": [],
   "author": "Ref-Bit",
   "license": "ISC",
   "dependencies": {
+    "concurrently": "^5.2.0",
     "cors": "^2.8.5",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
