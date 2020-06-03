@@ -1,0 +1,58 @@
+{
+  "books":
+  [
+    {
+      "name": "Name of the Wind",
+      "genre": "Fantasy",
+      "id": "1",
+      "authorId": "2"
+    },
+    {
+      "name": "The Final Empire",
+      "genre": "History",
+      "id": "2",
+      "authorId": "3"
+    },
+    {
+      "name": "The Lone Wolf",
+      "genre": "Adventure",
+      "id": "3",
+      "authorId": "1"
+    },
+    {
+      "name": "The Hero of Ages",
+      "genre": "Fantasy",
+      "id": "1",
+      "authorId": "2"
+    },
+    {
+      "name": "The Color of Magic",
+      "genre": "History",
+      "id": "2",
+      "authorId": "3"
+    },
+    {
+      "name": "The Lighthouse",
+      "genre": "Adventure",
+      "id": "3",
+      "authorId": "3"
+    }
+  ],
+  "authors": [
+    {
+      "name": "John Doe",
+      "age": 42,
+      "id": "1"
+    },
+    {
+      "name": "Willam Sanderson",
+      "age": 49,
+      "id": "2"
+    },
+    {
+      "name": "Patrick Rothfuss",
+      "age": 37,
+      "id": "3"
+    }
+  ]
+}
